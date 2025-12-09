@@ -10,10 +10,14 @@ main {
 }
 
 .header {
-  display: grid;
-  grid-template-columns: 1.51fr 2fr 1.5fr;
-  padding: 92px 51px 89px;
+  display: flex;
+  justify-content: space-between;
   align-items: center;
+  padding: 92px 50px 89px;
+}
+
+.header__menu {
+  flex: 1;
 }
 
 .header__links-list {
@@ -44,10 +48,10 @@ main {
 }
 
 .header__logo {
-  display: block;
-  justify-self: center;
+  /* display: block; */
   align-self: center;
   width: 140px;
+  flex: 0 0 auto;
 }
 
 .header__logo-image {
@@ -59,7 +63,8 @@ main {
 }
 
 .header__address {
-  justify-self: end;
+  flex: 1;
+  text-align: right;
   font-style: inherit;
 }
 
