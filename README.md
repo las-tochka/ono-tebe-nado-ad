@@ -8,4 +8,4 @@ cd ono-tebe-nado-ad
 # Ссылка на проект
 https://github.com/las-tochka/ono-tebe-nado-ad
 # Автор
-Ссылка на гитхаб: https://github.com/las-tochka
+Ссылка на гитхаб: https://github.com/las-tochka 
