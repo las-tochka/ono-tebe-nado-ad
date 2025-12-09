@@ -1,7 +1,7 @@
 main {
   display: flex;
   flex-direction: column;
-  gap: 213px;
+  gap: 183px;
 }
 
 .content-section {
@@ -20,11 +20,12 @@ main {
 
 .header__menu {
   flex: 1;
-  margin-top: -3px;
+  margin-top: -px;
+  position: relative;
+  top: -3px;
 }
 
 .header__links-list {
-  position: relative;
   display: flex;
   gap: 32px;
 }
@@ -53,7 +54,7 @@ main {
 
 .header__logo {
   align-self: center;
-  width: 155px;
+  width: 165px;
   flex: 0 0 auto;
 }
 
@@ -156,9 +157,8 @@ main {
   font-size: 22px;
   text-transform: uppercase;
   word-spacing: 18px;
+  margin-left: 10px;
   line-height: 1.27;
-  position: relative;
-  left: 10px;
 }
 
 .bet-button {
@@ -181,6 +181,7 @@ main {
 
 .lots {
   padding: 0 50px;
+  margin-bottom: 30px;
 }
 
 .lots__heading {
@@ -216,7 +217,7 @@ main {
   gap: 15px;
   width: 100%;
   height: calc(100% + 25px);
-  padding: 10px;
+  padding: 15px;
   box-sizing: border-box;
 }
 
@@ -271,8 +272,7 @@ main {
   grid-template-columns: 1fr 1fr 1fr;
   column-gap: 24px;
   padding: 0 50px;
-  position: relative;
-  left: -10px;
+  margin-left: -10px;
 }
 
 .about__column {
